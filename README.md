@@ -1,2 +1,3 @@
 # Estudo
- Repositorio para armazenamento de estudos de programação
+ Repositorio para armazenamento dos estudos de programação. 
+ Diversas linguagens. 
