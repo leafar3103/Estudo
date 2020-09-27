@@ -1,4 +1,6 @@
-public class SimuladorSemaforo{
+package Semaforo;
+
+public class SimuladorSemaforo {
     public static void main(String[]args){
         ThreadSemaforo semaforo = new ThreadSemaforo();
 

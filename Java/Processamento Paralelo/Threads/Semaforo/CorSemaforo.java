@@ -1,3 +1,5 @@
+package Semaforo;
+
 public enum CorSemaforo {
 
     VERDE(1000), AMARELO(300), VERMELHO(2000); /*Tempo em milisegundos das Threads*/

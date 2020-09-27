@@ -1,3 +1,5 @@
+package Semaforo;
+
 public class ThreadSemaforo implements Runnable {
     
    private CorSemaforo cor; //Chama as cores configuradas no Enumerate
