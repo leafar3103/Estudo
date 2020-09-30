@@ -1,1 +1,30 @@
 *.class
+*.py
+*.exe
+*.jpg
+*.png
+*.zip
+*.rar
+*.psd
+*.pdf
+*.ppt
+*.cfg
+*.pth
+*.txt
+*.pem
+*.xml
+Python/Exercicios/venv/Lib/site-packages/setuptools-40.8.0-py3.7.egg
+Python/Exercicios/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/not-zip-safe
+Python/Exercicios/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/PKG-INFO
+Python/Exercicios/venv/Scripts/Activate.ps1
+Python/Exercicios/venv/Scripts/activate.bat
+Python/Exercicios entregues/Exercicio do nome/font.ttf
+Python/Exercicios/venv/Scripts/deactivate.bat
+Python/Exercicios entregues/Exercicio do nome/Jungle Fever.ttf
+Python/Exercicios entregues/Exercicio do nome/font2.TTF
+Python/Exercicios/.idea/Exercicios.iml
+Python/Aulas EAD/Video aula/Colisões.pptx
+Python/Aulas EAD/Video aula/Pixel Perfect.mkv
+Python/Exercicios entregues/Exercicio do nome/font3.TTF
+Python/Exercicios entregues/Exercicio do nome/freesansbold.ttf
+Python/Exercicios/venv/Scripts/activate
