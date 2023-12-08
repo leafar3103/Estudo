@@ -13,6 +13,9 @@
 *.txt
 *.pem
 *.xml
+*.mp4
+*.m4a
+*.srt
 Python/Exercicios/venv/Lib/site-packages/setuptools-40.8.0-py3.7.egg
 Python/Exercicios/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/not-zip-safe
 Python/Exercicios/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/PKG-INFO
