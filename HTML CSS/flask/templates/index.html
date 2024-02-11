@@ -9,16 +9,32 @@
     <nav>
         <ul>
             <li><a href="/sobre">Sobre</a></li>
+            <!-- <li><a href="/comando/">Comando</a></li> -->
         </ul>
     </nav>
     <h1>Iniciando Flask</h1>
     <p> Esse é um experimento de construção de aplicação com o Flask</p>
     <h2>Desenvolvimento de uma aplicação Web</h2></br>
+    <h2>Ping Form</h2>
+    <form action="/ping" method="post">
+        <label for="ip_address">Enter IP Address:</label>
+        <input type="text" id="ip_address" name="ip_address" required>
+        <button type="submit">Ping</button>
+    </form>
+    {% if session.get('ping_result') %}
+    <h3>Ping Result for {{ session['ping_result']['ip_address'] }}</h3>
+    <pre>{{ session['ping_result']['ping_output'] }}</pre>
+    {% endif %}
 
     <p>Listando Diretório</p>
-    {{cmd}}
-    
-    <!-- <div id="img"> -->
+    <form action="/comando" method="post">
+        <input type="submit" value="List Dir">
+    </form>
+    <ul>
+        {% for comando in cmd %}
+            <li>{{ comando }}</li>
+        {% endfor %}
+    </ul>
 
 </body>
 </html>
