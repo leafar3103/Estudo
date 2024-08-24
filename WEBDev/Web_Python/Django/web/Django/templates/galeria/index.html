@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecOps</title>
+    <link rel="stylesheet" href="{% static '/styles/style.css'%}">
+</head>
+<body>
+    <div id="grad">
+    <img id="logo" src="{% static '/assets/logo.png'%}">
+    </div>
+
+    <div >
+        <h1>DevSecOps</h1>
+        <p>
+        Iniciando o processo de estudo para desenvolvimento Web e SecOps utilizando a aplicação do Django e outros Frameworks. 
+        </p>
+        <a href="{% url 'imagem'%}"> Publicação </a>
+    </div>
+
+
+</body>
+</html>

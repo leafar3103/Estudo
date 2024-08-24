@@ -1,0 +1,9 @@
+/* Tamanho da Imagem do Logo */
+#logo{
+    width: 180px;
+    height: auto;
+}
+/* Gradiente em uma div */
+#grad {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(166, 0, 255));
+  }
