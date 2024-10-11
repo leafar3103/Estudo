@@ -44,6 +44,6 @@ Java/Processamento Paralelo/Exemplos/Vetor/Vetor.java
 HTML CSS/Gitlab/M13-Boxe/m13-boxe
 HTML CSS/Gitlab/M13-Boxe/m13-boxe
 HTML CSS/flask/venv/
-/Flet/venv
-/Flet/__pycache__
+/Flet/venv/
+/Flet/__pycache__/
 *.db
